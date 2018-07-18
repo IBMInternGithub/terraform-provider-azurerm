@@ -226,7 +226,7 @@ func Provider() terraform.ResourceProvider {
 			"azurerm_sql_database":                            resourceArmSqlDatabase(),
 			"azurerm_sql_elasticpool":                         resourceArmSqlElasticPool(),
 			"azurerm_sql_firewall_rule":                       resourceArmSqlFirewallRule(),
-			"azurerm_sql_active_directory_administrator":      resourceArmSqlAdministrator(),
+			"azurerm_sql_administrator":      resourceArmSqlAdministrator(),
 			"azurerm_sql_server":                              resourceArmSqlServer(),
 			"azurerm_sql_virtual_network_rule":                resourceArmSqlVirtualNetworkRule(),
 			"azurerm_storage_account":                         resourceArmStorageAccount(),
